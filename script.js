@@ -29,19 +29,28 @@ $(document).ready(function(){
     header.classList.toggle("sticky", window.scrollY > 0);
   });
 
-  document.getElementById("product1").addEventListener("click", function() {
-    // Redirect to another page
-    window.location.href = "product1.html";
-  });
-  document.getElementById("product2").addEventListener("click", function() {
-    // Redirect to another page
-    window.location.href = "product2.html";
-  });
-  document.getElementById("product3").addEventListener("click", function() {
-    // Redirect to another page
-    window.location.href = "product3.html";
-  });
+    if(document.getElementById("product1")){
+        document.getElementById("product1").addEventListener("click", function() {
+            // Redirect to another page
+            window.location.href = "product1.html";
+          });
+    };
+  if(document.getElementById("product2")){
+
+      document.getElementById("product2").addEventListener("click", function() {
+        // Redirect to another page
+        window.location.href = "product2.html";
+      });
+  };
+    if(document.getElementById("product3")){
+        document.getElementById("product3").addEventListener("click", function() {
+        // Redirect to another page
+        window.location.href = "product3.html";
+        });
+    };
+  if(document.getElementById("product4")){
   document.getElementById("product4").addEventListener("click", function() {
     // Redirect to another page
     window.location.href = "product4.html";
   });
+  }
