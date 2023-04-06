@@ -263,6 +263,8 @@ img{
     box-sizing: border-box;
     width: auto;
     height: 100%;
+    object-fit: cover;
+
 }
 
 .why-content{
