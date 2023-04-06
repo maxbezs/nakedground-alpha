@@ -17,16 +17,13 @@
     background: #05A8D9;
     box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
     padding: 0 100px;
-    max-height: 75px;
+    max-height: 70px;
   }
   
   header .logo{
     color: #fff;
-    font-weight: 900;
-    font-family: 'Archivo-Black', sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
+    margin:0;
+    padding: 0;
   }
   
   header .navigation{
@@ -209,7 +206,7 @@ p{
   .main{
     width: 100%;
     height: auto;
-    padding-block: 75px;
+    padding-block: 70px;
     background-color: #fff;
   }
 
@@ -533,5 +530,8 @@ hr{
     .product{
         width: 100%;
         align-items: center;
+    }
+    .what-location-info{
+      justify-content: space-around
     }
   }
