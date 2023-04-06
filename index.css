@@ -356,6 +356,8 @@ footer{
     flex-wrap: wrap;
     justify-content: center;
     gap:24px;
+    box-sizing: border-box;
+
 }
 
 .product-info-details{
@@ -506,6 +508,10 @@ hr{
         font-size: 36px;
     }
 
+    h2{
+      text-align: center;
+    }
+
     img{
         width: 50%;
     }
@@ -518,10 +524,12 @@ hr{
     }
     .catalog{
         flex-direction: column;
+        width: 100%;
+        padding: 5%;
     }
 
     .product{
         width: 100%;
-        align-items: center
+        align-items: center;
     }
   }
